@@ -1,0 +1,129 @@
+function good_effect{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Good Effect TNT","color":"#FF0808","italic":false}'},CustomModelData:100011,EntityTag:{Silent:1b,NoAI:1b,Tags:["all_effect","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Gives all the good effects to the player nearby","color":"green"}
+}
+
+function fish{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Fish TNT","italic":false, "color":"red"}'},CustomModelData:100012,EntityTag:{Silent:1b,NoAI:1b,Tags:["fish","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Raining fishes","color":"green"}
+}
+
+function missile{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Missile TNT","color":"red","italic":false}'},CustomModelData:100013,EntityTag:{Silent:1b,NoAI:1b,Tags:["missile","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Call a airstike where the tnt explodes","color":"green"}
+}
+
+function sponge{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Sponge TNT","color":"yellow","italic":false}'},CustomModelData:100014,EntityTag:{Silent:1b,NoAI:1b,Tags:["sponge","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Clear 32x32x32 cube water near the tnt","color":"green"}
+}
+
+function butcher{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Butcher TNT","color":"red","italic":false}'},CustomModelData:100015,EntityTag:{Silent:1b,NoAI:1b,Tags:["butcher","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"kill all the entites in 70 blocks radius, excluding player","color":"green"}
+}
+
+function rich{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Rich TNT","color":"dark_green","italic":false}'},CustomModelData:100016,EntityTag:{Silent:1b,NoAI:1b,Tags:["rich","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Raining diamond, emeralds!","color":"green"}
+}
+
+function unspeakable{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Unspeakable TNT","color":"green","italic":false}'},CustomModelData:100018,EntityTag:{Silent:1b,NoAI:1b,Tags:["unspeakable","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Spawn alot of unspeakable clones","color":"green"}
+}
+
+function lightning{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Lightning TNT","color":"#78D6FF","italic":false}'},CustomModelData:100019,EntityTag:{Silent:1b,NoAI:1b,Tags:["lightning","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Spawn random lightning near the tnt","color":"green"}
+}
+
+function hostile{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Hostile TNT","color":"#78D6FF","italic":false}'},CustomModelData:100020,EntityTag:{Silent:1b,NoAI:1b,Tags:["hostile","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Spawns many hostile mobs","color":"green"}
+}
+
+function recursion{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Recursion TNT V2","color":"#78D6FF","italic":false}'},CustomModelData:100017,EntityTag:{Silent:1b,NoAI:1b,Tags:["recursion","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Every tnt will spawn more tnt and so forth","color":"green"}
+}
+
+function aswd{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"ASWD TNT","color":"#78D6FF","italic":false}'},CustomModelData:100021,EntityTag:{Silent:1b,NoAI:1b,Tags:["noob","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Spawns a giant ASWD","color":"green"}
+}
+
+function drill{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Drill TNT","color":"#78D6FF","italic":false}'},CustomModelData:100022,EntityTag:{Silent:1b,NoAI:1b,Tags:["drill","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Clear a single block hole beneath the tnt","color":"green"}
+}
+
+function tsunami{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Tsunami TNT","color":"blue","italic":false}'},CustomModelData:100023,EntityTag:{Silent:1b,NoAI:1b,Tags:["tsunami","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Spawns a big cube of water","color":"green"}
+}
+
+function wwz{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"World War Z TNT","color":"gray","italic":false}'},CustomModelData:100024,EntityTag:{Silent:1b,NoAI:1b,Tags:["wwz","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Spawns alot of zombies","color":"green"}
+}
+
+function inverted{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Inverted TNT","color":"light_purple","italic":false}'},CustomModelData:100025,EntityTag:{Silent:1b,NoAI:1b,Tags:["inverted","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Make all the entites inverted, excluding player","color":"green"}
+}
+
+function hacker{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Hacker TNT","color":"light_purple","italic":false}'},CustomModelData:100027,EntityTag:{Silent:1b,NoAI:1b,Tags:["hacker","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Hack you pc and crash it","color":"green"}
+    tellraw @a {"text":"WARNING: It will hack your pc and crash it, be cautious","color":"red"}
+}
+
+function noob{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Noob TNT","color":"light_purple","italic":false}'},CustomModelData:100028,EntityTag:{Silent:1b,NoAI:1b,Tags:["noob_2","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Just a noob TNT like always","color":"green"}
+}
+
+function farm{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Farm TNT","color":"light_purple","italic":false}'},CustomModelData:100029,EntityTag:{Silent:1b,NoAI:1b,Tags:["farm","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Spawns many farm animals","color":"green"}
+}
+
+function ice{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Ice TNT","color":"light_purple","italic":false}'},CustomModelData:100030,EntityTag:{Silent:1b,NoAI:1b,Tags:["ice","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Slow down all the mobs near the tnt, including player","color":"green"}
+}
+
+function fairy{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Fairy TNT","color":"purple","italic":false}'},CustomModelData:100031,EntityTag:{Silent:1b,NoAI:1b,Tags:["fairy","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Spawn bunch of faries, player gets regeneration when near them","color":"green"}
+}
+
+function troll{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Troll TNT","color":"white","italic":false}'},CustomModelData:100032,EntityTag:{Silent:1b,NoAI:1b,Tags:["troll","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Make a big lava pit with a middle platform, and give speed to the player. Hence they can't cross the lava lake and die","color":"green"}
+}
+
+function all{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"All TNT","color":"light_purple","italic":false}'},CustomModelData:100033,EntityTag:{Silent:1b,NoAI:1b,Tags:["all","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Summon all the TNT, excluding some TNTs which will cause lag","color":"green"}
+}
+
+function frog{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Frog TNT","color":"green","italic":false}'},CustomModelData:100034,EntityTag:{Silent:1b,NoAI:1b,Tags:["frog","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Spawns alot of frogs","color":"green"}
+}
+
+function mutant{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Mutant Zombie TNT","color":"green","italic":false}'},CustomModelData:100035,EntityTag:{Silent:1b,NoAI:1b,Tags:["mutant","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Spawn many types of Mutant zombie","color":"green"}
+}
+
+function fake{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Fake TNT","color":"green","italic":false}'},CustomModelData:100036,EntityTag:{Silent:1b,NoAI:1b,Tags:["fake","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+    tellraw @a {"text":"Fake TNT, good for trolling","color":"green"}
+}
+
+function meteor{
+    give @p endermite_spawn_egg{display:{Name:'{"text":"Meteor TNT","color":"green","italic":false}'},CustomModelData:100037,EntityTag:{Silent:1b,NoAI:1b,Tags:["meteor","tnt.endermite"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}]}} 1
+}
