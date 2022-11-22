@@ -2,7 +2,7 @@ import { Advancement, advancement, clear, functionCmd, ITEMS, MCFunction, raw, R
 
 function createRecipe(name: string , giveFunctionPath: string, element: ITEMS){
     
-    let self: SelectorClass<false, true> = Selector('@a');
+    let self: SelectorClass<true, true> = Selector('@s');
     let thisDatapack: string = "tnt_recipes";
     let tntDatapack: string = "mtnt.main";
 
@@ -74,3 +74,9 @@ createRecipe("wwz_tnt", "wwz", "minecraft:rotten_flesh"); // ✅
 createRecipe("inverted_tnt", "inverted", "minecraft:name_tag"); // ✅
 createRecipe("farm_tnt", "farm", "minecraft:beef"); // ✅
 createRecipe("freeze_tnt", "ice", "minecraft:ice"); // ✅
+
+createRecipe("fairy_tnt", "fairy", "minecraft:glowstone_dust"); // ✅
+createRecipe("all_tnt", "all", "minecraft:diamond"); // Remove all the other TNT
+createRecipe("fake_tnt", "fake", "minecraft:sand"); // ✅
+createRecipe("meteor_tnt", "meteor", "minecraft:magma_block"); // ✅
+createRecipe("frog_tnt", "frog", "minecraft:lily_pad"); // ✅
